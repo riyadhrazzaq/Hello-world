@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="cssSignUp.css" />
+    <script src="signup.js"></script>
+</head>
+
+<body>
+    <!-- <span id="head">Sign Up</span> -->
+    <div class="container">
+            
+        <div id="doc">
+            <form action="phpmain.php" onsubmit="return isValid()" method="post">
+                <span>Name:</span> 
+                <input type="text" name="name">
+                <br>
+                <br><span>Username:</span> 
+                <input type="text" name="username">
+                <br>
+                <br><span>Email:</span> 
+                <input type="text" name="mail">
+                <br>
+                <br><span>Password:</span> 
+                <input type="password" name="pass">
+                <br>
+                <br><span>Confirm Password:</span> 
+                <input type="password" name="cpass">
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
